@@ -3,7 +3,9 @@ import numpy as np
 df = pd.read_csv('csvFile')
 df.head()
 #get columnx through index
-df = df[ [1, 2, 5] ]
+# select single column
+df = df[ df.columns[0] ]
+# select multiple column, use iloc
 #axis defaults to 0
 #drop row, header does not count as 0
 df = df.drop( [0], axis=0 )
