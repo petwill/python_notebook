@@ -3,7 +3,9 @@
 import matplotlib.pyplot as plt
 # plotting a line
 x = np.linspace(0, 10, 100)
-plt.plot(x, np.sin(x))
+plt.plot(x, np.sin(x), label="title")
+# to show title
+plt.legend()
 
 #start new plot
 plt.close()
@@ -15,3 +17,5 @@ plt.scatter(x, y)
 
 #Vew
 #http://matplotlib.org/mpl_examples/pylab_examples/ellipse_collection.py
+
+
