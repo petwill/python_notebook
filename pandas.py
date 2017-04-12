@@ -27,4 +27,4 @@ df.iloc[ [3,4] ]
 # !! note that contrary to usual python slices, both the start and the stop are included!
 df.loc[ 3:4, :]
 # write dataframe to csv file without index column
-df.to_csv('ans.csv', header=False)
+df.to_csv('ans.csv', index=False)
