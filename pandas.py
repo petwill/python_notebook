@@ -28,3 +28,7 @@ df.iloc[ [3,4] ]
 df.loc[ 3:4, :]
 # write dataframe to csv file without index column
 df.to_csv('ans.csv', index=False)
+# append row
+df.loc[len(df)]=['8/19/2014','Jun','Fly','98765'] 
+# append column
+df["column_name"] = np.array( )
