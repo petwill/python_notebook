@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # plotting a line
 x = np.linspace(0, 10, 100)
 plt.plot(x, np.sin(x), label="title")
-# to show title
+# to show title( or say label for multi plot in a figure )
 plt.legend()
 
 #start new plot
