@@ -1,6 +1,6 @@
 # notebook
 
-for keras to use cpu
+force keras to use cpu
 
 import os<br>
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"<br>
