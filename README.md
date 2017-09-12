@@ -1,12 +1,15 @@
 # python notebook
 
 * force keras to use cpu
+
 `
 import os<br>
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"<br>
 os.environ["CUDA_VISIBLE_DEVICES"] = ""<br>
 `
+
 * set tensorflow gpu usage
+
 `
 import tensorflow as tf<br>
 from keras.backend.tensorflow_backend import set_session<br>
