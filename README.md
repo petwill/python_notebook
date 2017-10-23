@@ -1,4 +1,5 @@
 # python notebook
+mainly random snippets that might be useful for reviewing
 
 * force keras to use cpu
 
