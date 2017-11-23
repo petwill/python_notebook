@@ -9,7 +9,7 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 ```
 
-* set tensorflow gpu usage
+* keras set gpu usage
 
 ```
 import tensorflow as tf
